@@ -1,231 +1,123 @@
-# Awesome-Developer-Billing-Platform
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Developer Billing Platform Banner" width="100%" />
+</p>
 
-## Top Developer Billing Platforms Ecosystem
+# 💳 Awesome Developer Billing Platform 🚀
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+## 🌟 Top Developer Billing Platforms Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+A curated list of **SaaS products** and **Open-Source GitHub projects** for **Developer Billing**, **Subscription Management**, **Usage Metering**, **Invoicing**, and **Payment Orchestration**.
 
-*Focused on Subscription Management, Usage-Based Billing, Invoicing & Payment Orchestration*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Developer Billing**. These tools help SaaS and API companies manage subscriptions, meter usage, generate invoices, and orchestrate payments without building billing infrastructure from scratch.
-
-
-
-**Examples** include Stripe Billing, Lemon Squeezy, Paddle, Chargebee, Lago, Orb, Metronome, Kill Bill, Recurly, and FastSpring (the category leaders).
-
-
-
-**Open-source emphasis**: Developer billing has a **mature and production-proven open-source ecosystem**. **Lago** is the most widely adopted open-source billing platform with **6,983 GitHub stars**, powering usage-based billing for companies like Mistral and Groq . **Kill Bill** offers **14 years of production usage** with a plugin architecture for maximum flexibility . **OpenMeter** provides purpose-built metering for AI/API companies that feeds into any billing layer . **UniBee** delivers a gateway-agnostic subscription billing platform supporting Stripe, PayPal, and local payment methods simultaneously . **Meteroid** brings Rust-based performance for high-volume usage event processing . This section documents these production-grade solutions.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Stripe Billing](https://stripe.com/billing)**  
-
-  The default choice for developers already using Stripe for payments. Handles subscriptions, invoicing, usage-based billing, and revenue recognition. **Tradeoff**: Revenue-based fees of 0.5-0.8% on billing volume .
-
-
-
-- **[Lemon Squeezy](https://www.lemonsqueezy.com/)**  
-
-  Merchant of Record platform for SaaS and digital products. Handles global tax compliance, subscriptions, and payments. **Acquired by Stripe in 2024**.
-
-
-
-- **[Paddle](https://www.paddle.com/)**  
-
-  Merchant of Record billing platform. Handles subscriptions, usage-based billing, and global tax compliance for SaaS companies.
-
-
-
-- **[Chargebee](https://www.chargebee.com/)**  
-
-  Enterprise subscription management and billing platform. Supports complex pricing models, revenue recognition, and dunning. **Growth plan starts at $299/month** with 0.5% revenue fees .
-
-
-
-- **[Orb](https://www.orb.com/)**  
-
-  Usage-based billing platform designed for high-volume event ingestion. Provides real-time customer-facing usage dashboards and flexible pricing models.
-
-
-
-- **[Metronome](https://metronome.com/)**  
-
-  Enterprise-scale usage-based billing platform. **Acquired by Stripe in 2025**. Handles complex contract structures, custom rate cards, and multi-product ramps.
-
-
-
-- **[Recurly](https://recurly.com/)**  
-
-  Subscription billing and management platform. Provides recurring billing, invoicing, and revenue optimization for subscription businesses.
-
-
-
-- **[FastSpring](https://fastspring.com/)**  
-
-  Merchant of Record platform for SaaS and software companies. Handles global payments, tax compliance, and subscription management.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Full Billing & Subscription Platforms
-
-
-
-- **[Lago](https://github.com/getlago/lago)**  
-
-  **The most widely adopted open-source billing platform.** **6,983 stars, 307 forks**, **AGPL-3.0 licensed** . **Five-step billing workflow**: Usage Ingestion (event-based, duplicate prevention); Metrics Aggregation (COUNT, COUNT_UNIQUE, LATEST, MAX, SUM, WEIGHTED SUM); Pricing & Packaging (subscription, usage-based, or hybrid); Invoicing (automated with fees and taxes); Payments (native integrations or any PSP via invoice payload) . **Chosen by unicorns including Mistral (AI, $13.7B) and Groq (AI, $6.9B)** . **Self-hosted cost**: ~€10/month VPS vs $500-800/month for managed alternatives at $100K MRR .
-
-
-
-- **[Kill Bill](https://github.com/killbill/killbill)**  
-
-  **The enterprise-grade open-source subscription billing platform with 14+ years of production usage.** **Apache-2.0 licensed** . **Key strengths**: **Plugin-based architecture** for payment gateways and custom business logic; **Multi-tenant infrastructure** with isolated environments per organizational entity; **Revenue recognition system** to allocate contract revenue; **Payment gateway orchestrator** for transactions and refunds . **Best for**: Enterprises needing maximum flexibility and data sovereignty .
-
-
-
-- **[UniBee](https://github.com/UniBee-Billing/unibee)**  
-
-  **Open-source universal billing software for SaaS businesses.** **AGPLv3 licensed** . **Key differentiators**: **Gateway-agnostic**—connects Stripe, PayPal, and local payment methods simultaneously without vendor lock-in; **Usage-based billing** with tiered, volume-based, and per-seat pricing; **Dunning recovery** with automated retry logic; **Revenue analytics** including MRR, ARR, churn, LTV, and cohort analysis . **Docker Compose deployment**: `docker-compose up` brings up API, Admin Portal, User Portal, and License API .
-
-
-
-- **[Meteroid](https://github.com/meteroid-oss/meteroid)**  
-
-  **Open-source billing and subscription management platform built in Rust for high performance.** Supports **subscription billing, usage-based pricing, hybrid models, invoicing with tax compliance, coupons, trials, and revenue analytics** . **Architecture**: PostgreSQL for billing data, **ClickHouse for usage analytics**, **Kafka for event streaming** . **Best for**: SaaS teams needing to process millions of usage events with real-time metering.
-
-
-
-### Metering & Usage-Based Billing
-
-
-
-- **[OpenMeter](https://github.com/openmeterio/openmeter)**  
-
-  **Metering and billing for AI, API, and DevOps.** **1,170+ stars**, **Apache-2.0 licensed** . **Key positioning**: "OpenMeter is a metering tool, not a billing tool. It provides the usage data that feeds into usage-based, prepaid, and hybrid billing models. You still need a billing layer (Lago, Kill Bill, Stripe Billing, or custom) to generate invoices" . **Integrates with Stripe** to sync usage data into Stripe's metering system, or feeds into alternative billing platforms . **Deployment**: Kubernetes via Helm chart . **Best for**: AI, API, and DevOps companies needing high-performance usage metering .
-
-
-
-- **[Lotus](https://github.com/uselotus/lotus)**  
-
-  **Open-source pricing and packaging infrastructure.** **1,738 stars, 125 forks**, **Python-based** . Provides a flexible pricing engine that can be adapted for SaaS applications, supporting usage-based pricing, plan management, experimentation, and integrations with payments and CRM .
-
-
-
-- **[Flexprice](https://github.com/flexprice/flexprice)**  
-
-  **Open-source pricing and billing infrastructure to support any pricing model.** **16 stars** (early stage) . Designed to eliminate revenue cuts from Stripe and Chargebee. Composable and open—your application sends usage data, Flexprice handles metering, credits, pricing, billing, and payments in real time .
-
-
-
-### Invoicing & Billing Foundations
-
-
-
-- **[Crater](https://github.com/crater-invoice-inc/crater)**  
-
-  **Open-source invoicing and expense tracking software for individuals and small businesses.** **PHP-based** . **Features**: Professional invoices and estimates; **Recurring billing schedules**; **Multi-entity management** for separating financial data across business organizations; **Client billing portal** for customers to access history and pay invoices; **Template-based PDF invoice generation**; **Payment gateway integration** (Stripe) .
-
-
-
-- **[Akaunting](https://github.com/akaunting/akaunting)**  
-
-  **Modular business ERP and self-hosted accounting software.** **GPL-3.0 licensed** . **Double-entry bookkeeping** with general ledger and chart of accounts; **Module-based architecture** with a dedicated marketplace for third-party apps; **Multi-tenant data isolation**; **Role-based access control** . **Best for**: Small businesses needing integrated accounting and invoicing.
-
-
-
-- **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)**  
-
-  **Professional billing and invoicing platform for managing clients, projects, and financial records.** **PHP-based** . **Features**: Multi-currency billing; **Time tracking**; **Regional tax support**; **Automated exchange rate updates**; **Cross-platform mobile and desktop apps** .
-
-
-
-- **[IDURAR ERP/CRM](https://github.com/idurar/idurar-erp-crm)**  
-
-  **Open-source ERP/CRM with invoicing, quotes, and accounting.** **7,338 stars, 2,396 forks**, **Node.js/React/MongoDB** . **Advanced MERN stack** with Ant Design and Redux. Covers the full financial lifecycle including invoices, quotes, and accounting .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Full Billing Platforms**: **Lago** (most adopted, AGPL-3.0, usage-based focus), **Kill Bill** (enterprise-grade, Apache-2.0, plugin architecture), **UniBee** (gateway-agnostic, AGPLv3), **Meteroid** (Rust, high-performance metering) .
-
-- **Metering**: **OpenMeter** (Apache-2.0, feeds into any billing layer), **Lotus** (Python, pricing infrastructure), **Flexprice** (composable pricing) .
-
-- **Invoicing**: **Crater** (PHP, multi-entity), **Akaunting** (modular ERP), **Invoice Ninja** (multi-currency, time tracking), **IDURAR** (MERN stack) .
-
-
-
-**Frameworks for building custom systems**: Combine **Lago** for usage-based billing with subscription and hybrid models, **Kill Bill** for enterprise-grade plugin flexibility, **OpenMeter** for high-performance usage metering that feeds into any billing layer, **UniBee** for gateway-agnostic subscription billing with dunning recovery, and **Crater** or **Invoice Ninja** for invoicing foundations. Add **PostgreSQL** for persistence, **Redis** for caching, and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Developer billing platforms handle sensitive financial and payment data; ensure compliance with PCI DSS, PSD2, SOC 2, and applicable financial regulations.
-
-- **Open-source reality**: The open-source ecosystem for developer billing is **mature and production-proven**. **Lago** is chosen by unicorns like Mistral and Groq, with self-hosting saving $500-800/month at $100K MRR . **Kill Bill** brings 14+ years of production usage and enterprise-grade plugin flexibility . **UniBee** offers gateway-agnostic billing without vendor lock-in . **OpenMeter** provides purpose-built metering for AI/API companies . **Meteroid** delivers Rust-based performance for high-volume usage processing . However, **commercial platforms** (Stripe Billing, Chargebee, Paddle) provide **managed infrastructure, global tax compliance (Merchant of Record), dedicated support, and faster time-to-value** that open-source alternatives require additional operational investment to match. The open-source path is **genuinely viable** for organizations with strong engineering capacity seeking full data sovereignty and zero revenue-share fees.
-
-
+**Last updated: October 2026** 📅
 
 ---
 
+### 📊 Market Overview & Industry Dynamics
+> 💡 **Market Size & Structure**: The global developer billing and subscription management market is estimated at **$12.5 Billion in 2026** (projected to reach $24.8 Billion by 2030 at a 18.7% CAGR). The market is **moderately fragmented**: category giant Stripe dominates payment processing and general billing, while specialized high-volume usage-based billing infrastructure (e.g., Lago, Orb, OpenMeter) and Merchant of Record solutions (Paddle, Lemon Squeezy) represent rapidly expanding high-growth sub-segments.
 
+---
 
-**Made for SaaS founders, API product managers, platform engineers, and billing infrastructure developers.**
+## 📑 Table of Contents
+- [🏢 SaaS & Hosted Billing Platforms](#-saas--hosted-billing-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⚡ Full Billing & Subscription Platforms](#-full-billing--subscription-platforms)
+  - [⏱️ Metering & Usage-Based Engines](#%EF%B8%8F-metering--usage-based-engines)
+  - [🧾 Invoicing & Accounting Foundations](#-invoicing--accounting-foundations)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [❤️ Support & Sponsorship](#%EF%B8%8F-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-Let's make developer billing more open, transparent, and scalable.
+---
+
+## 🏢 SaaS & Hosted Billing Platforms
+
+| Platform | Starting Paid Tier Pricing | Free Tier / Trial Limit | Scale / Valuation / Revenue | Highlights & Tradeoffs |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Stripe Billing](https://stripe.com/billing)** 💳 | **0.5% - 0.8%** per recurring volume | **First $100,000** in lifetime billing volume processed free | **$103 Billion** Valuation ($14B+ ARR) | Default choice for Stripe users; handles subscriptions, invoicing, and rev-rec. |
+| **[Chargebee](https://www.chargebee.com/)** 🐝 | **$299/month** (Growth plan) + 0.5% overage | **14-day free trial** (Full access, no credit card required) | **$3.5 Billion** Valuation ($100M+ ARR) | Enterprise subscription & revenue operations engine with dunning and ASC 606 compliance. |
+| **[Paddle](https://www.paddle.com/)** 🚣 | **5% + 50¢** per transaction | **No fixed monthly fee** (Pay-as-you-go per transaction) | **$1.4 Billion** Valuation ($150M+ Revenue) | Complete Merchant of Record (MoR) platform handling global SaaS tax compliance & remittance. |
+| **[Recurly](https://recurly.com/)** 🔄 | **$249/month** (Starter plan) + 0.9% revenue share | **14-day free trial** | **~$600 Million** Valuation ($80M+ Revenue) | Subscription management specialist focused on churn reduction & enterprise billing. |
+| **[Lemon Squeezy](https://www.lemonsqueezy.com/)** 🍋 | **5% + 50¢** per transaction | **No monthly subscription fee** (Pay-per-sale model) | **Stripe Acquisition (2024)** (~$100M+ valuation unit) | Developer-centric MoR for SaaS, digital downloads, and subscriptions with tax handling. |
+| **[FastSpring](https://fastspring.com/)** ⚡ | **8.9%** per transaction or **8.6% + $1.00** | **14-day free trial** (Custom test store setup) | **~$500 Million** Valuation ($75M+ Revenue) | Global MoR platform tailored for B2B SaaS and desktop software vendor compliance. |
+| **[Metronome](https://metronome.com/)** ⏱️ | **$1,000/month** base platform commitment | **30-day sandbox evaluation account** | **Stripe Acquisition (2025)** (~$500M valuation unit) | Enterprise usage-based billing platform powering modern AI and usage-driven SaaS. |
+| **[Orb](https://www.orb.com/)** 🔮 | **$500/month** base infrastructure tier | **14-day free developer sandbox** | **$250 Million** Valuation (Series B backed) | Usage-based billing platform designed for real-time high-volume event ingestion. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+### ⚡ Full Billing & Subscription Platforms
+
+| Project | GitHub Stars | License | Key Features & Architecture |
+| :--- | :--- | :--- | :--- |
+| **[Lago](https://github.com/getlago/lago)** 🦩 | [![GitHub Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | AGPL-3.0 | Most popular open-source usage billing engine. Event ingestion, 6 aggregation types, invoicing & multi-PSP routing. Used by Mistral & Groq. |
+| **[Kill Bill](https://github.com/killbill/killbill)** 🗡️ | [![GitHub Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Apache-2.0 | Enterprise-grade subscription billing engine with 14+ years in production. Java-based multi-tenant architecture with rich plugin system. |
+| **[UniBee](https://github.com/UniBee-Billing/unibee)** 🐝 | [![GitHub Stars](https://img.shields.io/github/stars/UniBee-Billing/unibee?style=social&color=white)](https://github.com/UniBee-Billing/unibee/stargazers) | AGPL-3.0 | Universal gateway-agnostic billing for SaaS. Integrates Stripe, PayPal, & local gateways simultaneously with full dunning recovery. |
+| **[Meteroid](https://github.com/meteroid-oss/meteroid)** ☄️ | [![GitHub Stars](https://img.shields.io/github/stars/meteroid-oss/meteroid?style=social&color=white)](https://github.com/meteroid-oss/meteroid/stargazers) | AGPL-3.0 | High-performance Rust billing platform. Combines PostgreSQL (billing), ClickHouse (analytics), and Kafka for high-event throughput. |
+
+---
+
+### ⏱️ Metering & Usage-Based Engines
+
+| Project | GitHub Stars | License | Description & Use Case |
+| :--- | :--- | :--- | :--- |
+| **[Lotus](https://github.com/uselotus/lotus)** 🪷 | [![GitHub Stars](https://img.shields.io/github/stars/uselotus/lotus?style=social&color=white)](https://github.com/uselotus/lotus/stargazers) | MIT | Python-based pricing and packaging infrastructure for SaaS pricing experimentation and usage tracking. |
+| **[OpenMeter](https://github.com/openmeterio/openmeter)** 📊 | [![GitHub Stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers) | Apache-2.0 | Real-time usage metering for AI, API, and cloud infrastructure. Integrates seamlessly with Stripe Billing and Lago. |
+| **[Flexprice](https://github.com/flexprice/flexprice)** 🏷️ | [![GitHub Stars](https://img.shields.io/github/stars/flexprice/flexprice?style=social&color=white)](https://github.com/flexprice/flexprice/stargazers) | Apache-2.0 | Open-source pricing infrastructure to eliminate Stripe revenue share cuts. Modular metering, credits, and billing engine. |
+
+---
+
+### 🧾 Invoicing & Accounting Foundations
+
+| Project | GitHub Stars | License | Description & Use Case |
+| :--- | :--- | :--- | :--- |
+| **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** 🥷 | [![GitHub Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers) | Open Source | Complete invoicing and billing software with client portal, time tracking, multi-currency support, and mobile apps. |
+| **[IDURAR ERP/CRM](https://github.com/idurar/idurar-erp-crm)** 💼 | [![GitHub Stars](https://img.shields.io/github/stars/idurar/idurar-erp-crm?style=social&color=white)](https://github.com/idurar/idurar-erp-crm/stargazers) | MIT | Modern MERN stack ERP/CRM with full invoicing, quotation, inventory, and payment processing functionality. |
+| **[Crater](https://github.com/crater-invoice-inc/crater)** 🌋 | [![GitHub Stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers) | AGPL-3.0 | Self-hosted PHP invoice web app for freelancers and small businesses with estimate generation and client portals. |
+| **[Akaunting](https://github.com/akaunting/akaunting)** 🧮 | [![GitHub Stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social&color=white)](https://github.com/akaunting/akaunting/stargazers) | GPL-3.0 | Modular double-entry accounting and invoicing software with an extensive app marketplace. |
+| **[InvoicePlane](https://github.com/InvoicePlane/InvoicePlane)** ✈️ | [![GitHub Stars](https://img.shields.io/github/stars/InvoicePlane/InvoicePlane?style=social&color=white)](https://github.com/InvoicePlane/InvoicePlane/stargazers) | MIT | Lightweight self-hosted PHP invoicing system for client management, quote-to-invoice workflow, and payment gateway integration. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are very welcome! 🚀 Follow these simple steps:
+
+1. **Fork** the repository 🍴
+2. **Create** a new branch (`git checkout -b add-awesome-billing-tool`) 🌿
+3. **Add** your entry to `README.md` keeping formatting consistent 📝
+4. **Submit** a Pull Request with a short description of the tool 📬
+
+---
+
+## ❤️ Support & Sponsorship
+
+If you find this repository helpful for evaluating billing infrastructure or building SaaS products, please consider supporting the project! 🌟
+
+- ⭐ **Star this repo** on GitHub to help others discover it!
+- 🔀 **Fork it** to customize it for your team's tech stack evaluations.
+- 💬 **Share it** with fellow SaaS founders, API engineers, and product managers!
+- ☕ **Buy me a coffee / Sponsor**: [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+Your sponsorship helps keep this list continuously updated with high-quality, verified data! Thank you! 🙌
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Developer-Billing-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Developer-Billing-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an official endorsement.
+- Developer billing platforms handle sensitive financial and payment data; always ensure compliance with PCI DSS, PSD2, SOC 2, and applicable local tax laws.
+- **Open-source ecosystem note**: Open-source solutions like Lago and Kill Bill offer zero revenue-share fees and complete data sovereignty, but require engineering maintenance. Managed SaaS platforms (Stripe, Chargebee, Paddle) offer managed uptime, Merchant of Record tax compliance, and faster time-to-market. Choose based on your team's capacity and operational priorities.
+
+---
+
+<p align="center">Made with ❤️ for SaaS Founders, API Engineers, &amp; Billing Architects worldwide.</p>

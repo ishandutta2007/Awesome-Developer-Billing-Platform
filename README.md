@@ -51,34 +51,34 @@ A curated list of **SaaS products** and **Open-Source GitHub projects** for **De
 
 ### ⚡ Full Billing & Subscription Platforms
 
-| Project | GitHub Stars | License | Key Features & Architecture |
+| Project | GitHub_Stars | License | Key Features & Architecture |
 | :--- | :--- | :--- | :--- |
-| **[Lago](https://github.com/getlago/lago)** 🦩 | [![GitHub Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | AGPL-3.0 | Most popular open-source usage billing engine. Event ingestion, 6 aggregation types, invoicing & multi-PSP routing. Used by Mistral & Groq. |
-| **[Kill Bill](https://github.com/killbill/killbill)** 🗡️ | [![GitHub Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Apache-2.0 | Enterprise-grade subscription billing engine with 14+ years in production. Java-based multi-tenant architecture with rich plugin system. |
-| **[UniBee](https://github.com/UniBee-Billing/unibee)** 🐝 | [![GitHub Stars](https://img.shields.io/github/stars/UniBee-Billing/unibee?style=social&color=white)](https://github.com/UniBee-Billing/unibee/stargazers) | AGPL-3.0 | Universal gateway-agnostic billing for SaaS. Integrates Stripe, PayPal, & local gateways simultaneously with full dunning recovery. |
-| **[Meteroid](https://github.com/meteroid-oss/meteroid)** ☄️ | [![GitHub Stars](https://img.shields.io/github/stars/meteroid-oss/meteroid?style=social&color=white)](https://github.com/meteroid-oss/meteroid/stargazers) | AGPL-3.0 | High-performance Rust billing platform. Combines PostgreSQL (billing), ClickHouse (analytics), and Kafka for high-event throughput. |
+| **[Lago](https://github.com/getlago/lago)** 🦩 | [![GitHub_Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | AGPL-3.0 | Most popular open-source usage billing engine. Event ingestion, 6 aggregation types, invoicing & multi-PSP routing. Used by Mistral & Groq. |
+| **[Kill Bill](https://github.com/killbill/killbill)** 🗡️ | [![GitHub_Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Apache-2.0 | Enterprise-grade subscription billing engine with 14+ years in production. Java-based multi-tenant architecture with rich plugin system. |
+| **[UniBee](https://github.com/UniBee-Billing/unibee)** 🐝 | [![GitHub_Stars](https://img.shields.io/github/stars/UniBee-Billing/unibee?style=social&color=white)](https://github.com/UniBee-Billing/unibee/stargazers) | AGPL-3.0 | Universal gateway-agnostic billing for SaaS. Integrates Stripe, PayPal, & local gateways simultaneously with full dunning recovery. |
+| **[Meteroid](https://github.com/meteroid-oss/meteroid)** ☄️ | [![GitHub_Stars](https://img.shields.io/github/stars/meteroid-oss/meteroid?style=social&color=white)](https://github.com/meteroid-oss/meteroid/stargazers) | AGPL-3.0 | High-performance Rust billing platform. Combines PostgreSQL (billing), ClickHouse (analytics), and Kafka for high-event throughput. |
 
 ---
 
 ### ⏱️ Metering & Usage-Based Engines
 
-| Project | GitHub Stars | License | Description & Use Case |
+| Project | GitHub_Stars | License | Description & Use Case |
 | :--- | :--- | :--- | :--- |
-| **[Lotus](https://github.com/uselotus/lotus)** 🪷 | [![GitHub Stars](https://img.shields.io/github/stars/uselotus/lotus?style=social&color=white)](https://github.com/uselotus/lotus/stargazers) | MIT | Python-based pricing and packaging infrastructure for SaaS pricing experimentation and usage tracking. |
-| **[OpenMeter](https://github.com/openmeterio/openmeter)** 📊 | [![GitHub Stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers) | Apache-2.0 | Real-time usage metering for AI, API, and cloud infrastructure. Integrates seamlessly with Stripe Billing and Lago. |
-| **[Flexprice](https://github.com/flexprice/flexprice)** 🏷️ | [![GitHub Stars](https://img.shields.io/github/stars/flexprice/flexprice?style=social&color=white)](https://github.com/flexprice/flexprice/stargazers) | Apache-2.0 | Open-source pricing infrastructure to eliminate Stripe revenue share cuts. Modular metering, credits, and billing engine. |
+| **[Lotus](https://github.com/uselotus/lotus)** 🪷 | [![GitHub_Stars](https://img.shields.io/github/stars/uselotus/lotus?style=social&color=white)](https://github.com/uselotus/lotus/stargazers) | MIT | Python-based pricing and packaging infrastructure for SaaS pricing experimentation and usage tracking. |
+| **[OpenMeter](https://github.com/openmeterio/openmeter)** 📊 | [![GitHub_Stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers) | Apache-2.0 | Real-time usage metering for AI, API, and cloud infrastructure. Integrates seamlessly with Stripe Billing and Lago. |
+| **[Flexprice](https://github.com/flexprice/flexprice)** 🏷️ | [![GitHub_Stars](https://img.shields.io/github/stars/flexprice/flexprice?style=social&color=white)](https://github.com/flexprice/flexprice/stargazers) | Apache-2.0 | Open-source pricing infrastructure to eliminate Stripe revenue share cuts. Modular metering, credits, and billing engine. |
 
 ---
 
 ### 🧾 Invoicing & Accounting Foundations
 
-| Project | GitHub Stars | License | Description & Use Case |
+| Project | GitHub_Stars | License | Description & Use Case |
 | :--- | :--- | :--- | :--- |
-| **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** 🥷 | [![GitHub Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers) | Open Source | Complete invoicing and billing software with client portal, time tracking, multi-currency support, and mobile apps. |
-| **[IDURAR ERP/CRM](https://github.com/idurar/idurar-erp-crm)** 💼 | [![GitHub Stars](https://img.shields.io/github/stars/idurar/idurar-erp-crm?style=social&color=white)](https://github.com/idurar/idurar-erp-crm/stargazers) | MIT | Modern MERN stack ERP/CRM with full invoicing, quotation, inventory, and payment processing functionality. |
-| **[Crater](https://github.com/crater-invoice-inc/crater)** 🌋 | [![GitHub Stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers) | AGPL-3.0 | Self-hosted PHP invoice web app for freelancers and small businesses with estimate generation and client portals. |
-| **[Akaunting](https://github.com/akaunting/akaunting)** 🧮 | [![GitHub Stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social&color=white)](https://github.com/akaunting/akaunting/stargazers) | GPL-3.0 | Modular double-entry accounting and invoicing software with an extensive app marketplace. |
-| **[InvoicePlane](https://github.com/InvoicePlane/InvoicePlane)** ✈️ | [![GitHub Stars](https://img.shields.io/github/stars/InvoicePlane/InvoicePlane?style=social&color=white)](https://github.com/InvoicePlane/InvoicePlane/stargazers) | MIT | Lightweight self-hosted PHP invoicing system for client management, quote-to-invoice workflow, and payment gateway integration. |
+| **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** 🥷 | [![GitHub_Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers) | Open Source | Complete invoicing and billing software with client portal, time tracking, multi-currency support, and mobile apps. |
+| **[IDURAR ERP/CRM](https://github.com/idurar/idurar-erp-crm)** 💼 | [![GitHub_Stars](https://img.shields.io/github/stars/idurar/idurar-erp-crm?style=social&color=white)](https://github.com/idurar/idurar-erp-crm/stargazers) | MIT | Modern MERN stack ERP/CRM with full invoicing, quotation, inventory, and payment processing functionality. |
+| **[Crater](https://github.com/crater-invoice-inc/crater)** 🌋 | [![GitHub_Stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers) | AGPL-3.0 | Self-hosted PHP invoice web app for freelancers and small businesses with estimate generation and client portals. |
+| **[Akaunting](https://github.com/akaunting/akaunting)** 🧮 | [![GitHub_Stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social&color=white)](https://github.com/akaunting/akaunting/stargazers) | GPL-3.0 | Modular double-entry accounting and invoicing software with an extensive app marketplace. |
+| **[InvoicePlane](https://github.com/InvoicePlane/InvoicePlane)** ✈️ | [![GitHub_Stars](https://img.shields.io/github/stars/InvoicePlane/InvoicePlane?style=social&color=white)](https://github.com/InvoicePlane/InvoicePlane/stargazers) | MIT | Lightweight self-hosted PHP invoicing system for client management, quote-to-invoice workflow, and payment gateway integration. |
 
 ---
 
